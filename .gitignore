@@ -1,0 +1,25 @@
+# GitHub에 올리지 않는 것(2026-10-27) — 소스·아이콘·테스트·문서만 올리고 아래는 뺀다
+# 빌드 결과·가상환경
+dist/
+dist-mac/
+build/
+build-mac/
+.venv*/
+__pycache__/
+*.pyc
+# 악보·만든 결과(곡 파일은 저작권·용량 문제로 올리지 않음)
+*.xml
+*.musicxml
+*.mxl
+*.mscz
+*.wav
+*.mp3
+# 개인 설정·기록·로그
+generate_settings.json
+generate_history.json
+generate_error.log
+# 기타
+.DS_Store
+.vscode/
+비교/
+android_handoff_*/
