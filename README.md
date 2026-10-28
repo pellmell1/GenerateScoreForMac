@@ -1,1 +1,1 @@
-# GenerteScore
+# GenerateScore
